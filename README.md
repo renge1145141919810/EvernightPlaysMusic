@@ -1,6 +1,8 @@
 # EvernightPlaysMusic
 
-一个基于 PyQt5 的桌面宠物音乐播放器，以长夜月小人为形象，支持播放、收藏、播放列表管理等功能。
+一个用于播放音乐的vibe coding程序喵~꒰ঌ(˶ˆᗜˆ˵)໒꒱
+
+由于作者习惯于把音乐下载到本地听，市面上很多音乐播放器的很多功能根本用不到，所以让AI给我写了一个喵~
 
 ## 功能特性
 
@@ -16,13 +18,15 @@
 
 ## 使用方式
 
-### 直接运行 exe
+### 下载 exe
 
-双击 `dist/EvernightPlaysMusic.exe` 即可运行，无需安装 Python。
+前往 [Releases](https://github.com/renge1145141919810/EvernightPlaysMusic/releases) 下载 `EvernightPlaysMusic.exe`，双击即可运行，无需安装 Python。
 
 ### 从源码运行
 
 ```bash
+git clone https://github.com/renge1145141919810/EvernightPlaysMusic.git
+cd EvernightPlaysMusic
 pip install PyQt5 pygame-ce mutagen
 python main.py
 ```
